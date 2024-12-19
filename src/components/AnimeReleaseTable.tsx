@@ -55,6 +55,15 @@ type CachedAnimeData = Record<number, AnimeData>;
 
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
+const formatText = (text: string) => {
+    return text.split(/\n/).map((line, index, array) => (
+        <React.Fragment key={index}>
+            {line}
+            {index < array.length - 1 && <br />}
+        </React.Fragment>
+    ));
+};
+
 const fetchWithRetry = async (url: string, maxRetries = 5): Promise<any> => {
     let retries = 0;
 
@@ -67,10 +76,8 @@ const fetchWithRetry = async (url: string, maxRetries = 5): Promise<any> => {
             }
 
             if (response.status === 429) {
-                // Get retry-after header or default to exponential backoff
                 const retryAfter = response.headers.get("Retry-After");
                 const delay = retryAfter ? parseInt(retryAfter) * 1000 : Math.min(1000 * Math.pow(2, retries), 10000);
-
                 console.log(`Rate limited. Retrying after ${delay}ms...`);
                 await sleep(delay);
                 retries++;
@@ -81,7 +88,6 @@ const fetchWithRetry = async (url: string, maxRetries = 5): Promise<any> => {
         } catch (error) {
             if (retries === maxRetries - 1) throw error;
             retries++;
-            // Exponential backoff for other errors
             await sleep(1000 * Math.pow(2, retries));
         }
     }
@@ -125,8 +131,8 @@ const ReleaseSection: React.FC<{ title: string; releases?: Release[] | string }>
         <div className="space-y-2">
             {releaseArray.map((release, index) => (
                 <div key={index} className="p-2 rounded-md bg-content2">
-                    {release.name && <p className="font-semibold">{release.name}</p>}
-                    <p>{release.description}</p>
+                    {release.name && <p className="font-semibold">{formatText(release.name)}</p>}
+                    <p>{release.description && formatText(release.description)}</p>
                     {release.downloadLinks && (
                         <div className="mt-2">
                             <ReleaseLinks links={release.downloadLinks} />
@@ -158,7 +164,6 @@ const AnimeReleaseTable: React.FC = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [loadingStatus, setLoadingStatus] = useState<string>("");
 
-    // Load initial release data
     useEffect(() => {
         const loadReleases = async () => {
             try {
@@ -182,14 +187,12 @@ const AnimeReleaseTable: React.FC = () => {
         loadReleases();
     }, []);
 
-    // Load anime data for all filtered releases
     useEffect(() => {
         const loadAnimeData = async () => {
             setIsLoading(true);
             let completed = 0;
 
             try {
-                // Process in batches of 3 to avoid overwhelming the API
                 const batchSize = 3;
                 const releases = [...filteredReleases];
 
@@ -211,7 +214,6 @@ const AnimeReleaseTable: React.FC = () => {
                         })
                     );
 
-                    // Small delay between batches to respect rate limits
                     if (releases.length > 0) {
                         await sleep(1000);
                     }
@@ -227,7 +229,6 @@ const AnimeReleaseTable: React.FC = () => {
         loadAnimeData();
     }, [filteredReleases]);
 
-    // Handle search filtering
     useEffect(() => {
         const filtered = releases.filter(release => {
             const animeData = animeDataCache[release.malId];
@@ -264,31 +265,41 @@ const AnimeReleaseTable: React.FC = () => {
                 className="w-full sm:max-w-[44%]"
             />
 
-            <Table selectionMode="single" aria-label="Anime releases table" className="w-full">
-                <TableHeader>
-                    <TableColumn>Title</TableColumn>
-                    <TableColumn>English Title</TableColumn>
-                </TableHeader>
-                <TableBody emptyContent="No releases found">
-                    {filteredReleases.map(release => {
-                        const animeData = animeDataCache[release.malId];
+            <div className="overflow-x-auto">
+                <Table
+                    selectionMode="single"
+                    aria-label="Anime releases table"
+                    className="min-w-full"
+                    classNames={{
+                        wrapper: "min-w-full",
+                        table: "min-w-full"
+                    }}
+                >
+                    <TableHeader>
+                        <TableColumn className="min-w-[200px]">Title</TableColumn>
+                        <TableColumn className="min-w-[200px]">English Title</TableColumn>
+                    </TableHeader>
+                    <TableBody emptyContent="No releases found">
+                        {filteredReleases.map(release => {
+                            const animeData = animeDataCache[release.malId];
 
-                        return (
-                            <TableRow
-                                key={release.malId}
-                                className="cursor-pointer hover:bg-default-100"
-                                onClick={() => {
-                                    setSelectedRelease(release);
-                                    setIsModalOpen(true);
-                                }}
-                            >
-                                <TableCell>{animeData?.title || release.title}</TableCell>
-                                <TableCell>{animeData?.title_english || "N/A"}</TableCell>
-                            </TableRow>
-                        );
-                    })}
-                </TableBody>
-            </Table>
+                            return (
+                                <TableRow
+                                    key={release.malId}
+                                    className="cursor-pointer hover:bg-default-100"
+                                    onClick={() => {
+                                        setSelectedRelease(release);
+                                        setIsModalOpen(true);
+                                    }}
+                                >
+                                    <TableCell>{animeData?.title || release.title}</TableCell>
+                                    <TableCell>{animeData?.title_english || "N/A"}</TableCell>
+                                </TableRow>
+                            );
+                        })}
+                    </TableBody>
+                </Table>
+            </div>
 
             <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} size="2xl" scrollBehavior="inside">
                 <ModalContent>
@@ -345,21 +356,21 @@ const AnimeReleaseTable: React.FC = () => {
                                                 {selectedRelease.notes && (
                                                     <Tab key="notes" title="Notes">
                                                         <div className="p-2">
-                                                            <p>{selectedRelease.notes}</p>
+                                                            <p>{formatText(selectedRelease.notes)}</p>
                                                         </div>
                                                     </Tab>
                                                 )}
                                                 {selectedRelease.qualityComparisons && (
                                                     <Tab key="quality" title="Quality">
                                                         <div className="p-2">
-                                                            <p>{selectedRelease.qualityComparisons}</p>
+                                                            <p>{formatText(selectedRelease.qualityComparisons)}</p>
                                                         </div>
                                                     </Tab>
                                                 )}
                                                 {selectedRelease.missingReleases && (
                                                     <Tab key="missing" title="Missing">
                                                         <div className="p-2">
-                                                            <p>{selectedRelease.missingReleases}</p>
+                                                            <p>{formatText(selectedRelease.missingReleases)}</p>
                                                         </div>
                                                     </Tab>
                                                 )}
