@@ -53,6 +53,42 @@ interface AnimeData {
 
 type CachedAnimeData = Record<number, AnimeData>;
 
+const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+const fetchWithRetry = async (url: string, maxRetries = 5): Promise<any> => {
+    let retries = 0;
+
+    while (retries < maxRetries) {
+        try {
+            const response = await fetch(url);
+
+            if (response.ok) {
+                return await response.json();
+            }
+
+            if (response.status === 429) {
+                // Get retry-after header or default to exponential backoff
+                const retryAfter = response.headers.get("Retry-After");
+                const delay = retryAfter ? parseInt(retryAfter) * 1000 : Math.min(1000 * Math.pow(2, retries), 10000);
+
+                console.log(`Rate limited. Retrying after ${delay}ms...`);
+                await sleep(delay);
+                retries++;
+                continue;
+            }
+
+            throw new Error(`HTTP error! status: ${response.status}`);
+        } catch (error) {
+            if (retries === maxRetries - 1) throw error;
+            retries++;
+            // Exponential backoff for other errors
+            await sleep(1000 * Math.pow(2, retries));
+        }
+    }
+
+    throw new Error("Max retries exceeded");
+};
+
 const ReleaseLinks: React.FC<{ links: string | string[] }> = ({ links }) => {
     const linkArray = Array.isArray(links) ? links : [links];
 
@@ -104,9 +140,7 @@ const ReleaseSection: React.FC<{ title: string; releases?: Release[] | string }>
 
 const fetchAnimeData = async (malId: number): Promise<AnimeData | null> => {
     try {
-        const response = await fetch(`https://api.jikan.moe/v4/anime/${malId}`);
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-        const data = await response.json();
+        const data = await fetchWithRetry(`https://api.jikan.moe/v4/anime/${malId}`);
         return data.data;
     } catch (error) {
         console.error("Error fetching anime data:", error);
@@ -122,6 +156,7 @@ const AnimeReleaseTable: React.FC = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [searchQuery, setSearchQuery] = useState("");
     const [isLoading, setIsLoading] = useState(true);
+    const [loadingStatus, setLoadingStatus] = useState<string>("");
 
     // Load initial release data
     useEffect(() => {
@@ -151,24 +186,41 @@ const AnimeReleaseTable: React.FC = () => {
     useEffect(() => {
         const loadAnimeData = async () => {
             setIsLoading(true);
+            let completed = 0;
+
             try {
-                await Promise.all(
-                    filteredReleases.map(async release => {
-                        if (!animeDataCache[release.malId]) {
-                            const animeData = await fetchAnimeData(release.malId);
-                            if (animeData) {
-                                setAnimeDataCache(prev => ({
-                                    ...prev,
-                                    [release.malId]: animeData
-                                }));
+                // Process in batches of 3 to avoid overwhelming the API
+                const batchSize = 3;
+                const releases = [...filteredReleases];
+
+                while (releases.length > 0) {
+                    const batch = releases.splice(0, batchSize);
+                    await Promise.all(
+                        batch.map(async release => {
+                            if (!animeDataCache[release.malId]) {
+                                const animeData = await fetchAnimeData(release.malId);
+                                if (animeData) {
+                                    setAnimeDataCache(prev => ({
+                                        ...prev,
+                                        [release.malId]: animeData
+                                    }));
+                                }
                             }
-                        }
-                    })
-                );
+                            completed++;
+                            setLoadingStatus(`Loading anime data... ${completed}/${filteredReleases.length}`);
+                        })
+                    );
+
+                    // Small delay between batches to respect rate limits
+                    if (releases.length > 0) {
+                        await sleep(1000);
+                    }
+                }
             } catch (error) {
                 console.error("Error loading anime data:", error);
             } finally {
                 setIsLoading(false);
+                setLoadingStatus("");
             }
         };
 
@@ -193,8 +245,9 @@ const AnimeReleaseTable: React.FC = () => {
 
     if (isLoading && filteredReleases.length === 0) {
         return (
-            <div className="flex justify-center items-center h-64">
+            <div className="flex flex-col justify-center items-center h-64 gap-4">
                 <Spinner size="lg" />
+                {loadingStatus && <p className="text-default-500">{loadingStatus}</p>}
             </div>
         );
     }
