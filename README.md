@@ -1,4 +1,4 @@
-# Anime Release Table Component
+# Best Release Indonesia
 
 A React component built with Next.js and NextUI that displays a searchable table of anime releases with detailed information modals.
 
