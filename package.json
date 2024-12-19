@@ -1,0 +1,40 @@
+{
+    "name": "anime-release-indonesia",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "NODE_OPTIONS='--inspect' next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "pretty": "prettier --check .",
+        "format": "prettier --write ."
+    },
+    "dependencies": {
+        "@nextui-org/react": "^2.6.8",
+        "lodash.debounce": "^4.0.8",
+        "lucide-react": "^0.468.0",
+        "next": "15.1.2",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3",
+        "@types/node": "^20",
+        "@types/react": "^19",
+        "@types/react-dom": "^19",
+        "eslint": "^9",
+        "eslint-config-next": "15.1.2",
+        "postcss": "^8",
+        "prettier": "^3.4.2",
+        "prettier-plugin-tailwindcss": "^0.6.9",
+        "tailwindcss": "^3.4.17",
+        "typescript": "^5"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "trailingComma": "none",
+        "arrowParens": "avoid",
+        "printWidth": 120
+    }
+}
