@@ -1,4 +1,4 @@
-import AnimeReleaseTable from "@/components/AnimeReleaseTable";
+import AnimeReleaseTable from "@/AnimeReleaseTable";
 import Header from "@/components/Header";
 
 export default function Home() {
