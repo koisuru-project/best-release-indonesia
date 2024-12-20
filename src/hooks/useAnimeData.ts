@@ -13,7 +13,7 @@ export const useAnimeData = (filteredReleases: AnimeRelease[]) => {
             let completed = 0;
 
             try {
-                const batchSize = 3;
+                const batchSize = 9999;
                 const releases = [...filteredReleases];
 
                 while (releases.length > 0) {
