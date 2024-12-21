@@ -1,32 +1,49 @@
 # Best Release Indonesia
 
-A React component built with Next.js and NextUI that displays a searchable table of anime releases with detailed information modals.
+<div align="center">
 
-## Features
+[![Next.js](https://img.shields.io/badge/Next.js-13+-000000?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![NextUI](https://img.shields.io/badge/NextUI-Latest-000000?style=for-the-badge)](https://nextui.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-- Searchable anime release table
-- Detailed modal view for each anime
-- Display of anime cover images
-- Multiple tabs for different types of release information
-- Download links management
-- Responsive design
-- Title search functionality
+A searchable anime release table component built with Next.js and NextUI, featuring detailed information modals and comprehensive release tracking.
 
-## Prerequisites
+[Features](#features) •
+[Installation](#installation) •
+[Usage](#usage) •
+[Documentation](#documentation) •
+[Contributing](#contributing)
+
+</div>
+
+## ✨ Features
+
+- 🔍 Searchable anime release table with real-time filtering
+- 📱 Responsive design for all screen sizes
+- 🖼️ Optimized anime cover image display
+- 📑 Multiple tabs for different types of release information
+- 🔗 Organized download links management
+- 🌙 Dark mode support
+- 🚀 Built with Next.js 13+ and NextUI
+
+## 🚀 Installation
+
+### Prerequisites
 
 - Node.js 16.8.0 or newer
 - Next.js 13 or newer
 - React 18 or newer
 
-## Installation
+### Setup
 
-1. First, make sure you have the required dependencies in your project:
+1. Install required dependencies:
 
 ```bash
 npm install @nextui-org/react framer-motion lucide-react next-themes
 ```
 
-2. Set up NextUI in your Next.js project by updating your `tailwind.config.js`:
+2. Configure Tailwind CSS - update your `tailwind.config.js`:
 
 ```javascript
 const { nextui } = require("@nextui-org/react");
@@ -45,7 +62,7 @@ module.exports = {
 };
 ```
 
-3. Update your `app/providers.tsx` file to include NextUI's provider:
+3. Set up NextUI Provider - create or update `app/providers.tsx`:
 
 ```typescript
 "use client";
@@ -61,7 +78,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
 }
 ```
 
-4. Create a data file at `public/data/animeRelease.json` with your anime release data in the following format:
+4. Create your anime release data file at `public/data/animeRelease.json`:
 
 ```json
 [
@@ -89,11 +106,9 @@ export function Providers({ children }: { children: React.ReactNode }) {
 ]
 ```
 
-## Usage
+## 📖 Usage
 
-1. Copy the `AnimeReleaseTable` component to your project.
-
-2. Import and use the component in your page:
+Import and use the component in your Next.js page:
 
 ```typescript
 // app/page.tsx
@@ -108,19 +123,15 @@ export default function Home() {
 }
 ```
 
-## Component Structure
+## 📚 Documentation
 
-- `AnimeReleaseTable`: Main component that handles the data fetching and display
-- `ReleaseLinks`: Subcomponent for rendering download links
-- `ReleaseSection`: Subcomponent for rendering release information sections
+### Component Structure
 
-## API Integration
+- `AnimeReleaseTable`: Main component for data management and display
+- `ReleaseLinks`: Handles download link rendering
+- `ReleaseSection`: Manages release information sections
 
-The component uses the Jikan API (MyAnimeList API) to fetch additional anime information. No API key is required, but there are rate limits to consider.
-
-## Interfaces
-
-### AnimeRelease Interface
+### TypeScript Interfaces
 
 ```typescript
 interface AnimeRelease {
@@ -133,11 +144,7 @@ interface AnimeRelease {
     missingReleases?: string;
     downloadLinks?: string | string[];
 }
-```
 
-### Release Interface
-
-```typescript
 interface Release {
     name?: string;
     description?: string;
@@ -145,55 +152,59 @@ interface Release {
 }
 ```
 
-## Styling
+### API Integration
 
-The component uses NextUI's built-in components and Tailwind CSS for styling. Custom styles can be added through Tailwind classes or by modifying the component's className props.
+The component integrates with the Jikan API (MyAnimeList API) for fetching additional anime information. No API key is required, but please be mindful of rate limits.
 
-## Performance Considerations
-
-- All anime data is loaded at once, which might impact initial load time for large datasets
-- Images are loaded with Next.js Image component for optimization
-- Search filtering is performed client-side
-
-## Customization
+### Customization
 
 You can customize the component by:
 
-- Modifying the table columns in the TableHeader component
-- Adjusting the modal size using the size prop
-- Customizing the tabs and their content
-- Adding additional fields to the data structure
-- Modifying the search functionality
+- Modifying table columns in the TableHeader component
+- Adjusting modal sizes via the size prop
+- Customizing tabs and their content
+- Adding new fields to the data structure
+- Modifying search functionality
 
-## Error Handling
+## 🔧 Technical Details
 
-The component includes basic error handling for:
+### Performance Optimization
 
-- Failed API requests
-- Missing or malformed data
-- Image loading failures
-- Search edge cases
+- Client-side search filtering
+- Optimized image loading with Next.js Image component
+- Efficient data management for large datasets
 
-## Browser Support
+### Browser Support
 
-The component is compatible with all modern browsers that support:
+Compatible with all modern browsers supporting:
 
-- CSS Grid
-- Flexbox
+- CSS Grid and Flexbox
 - ES6+ JavaScript features
 - Next.js requirements
 
-## Contributing
+## 🤝 Contributing
 
-Feel free to submit issues and enhancement requests!
+Contributions are welcome! Feel free to:
 
-## License
+- Submit issues
+- Propose new features
+- Create pull requests
 
-MIT License
+## 📄 License
 
-## Acknowledgments
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-- Built with [Next.js](https://nextjs.org/)
-- UI components from [NextUI](https://nextui.org/)
-- Icons from [Lucide](https://lucide.dev/)
-- Anime data from [Jikan API](https://jikan.moe/)
+## 🙏 Acknowledgments
+
+Built with:
+
+- [Next.js](https://nextjs.org/) - React framework
+- [NextUI](https://nextui.org/) - UI components
+- [Lucide](https://lucide.dev/) - Icons
+- [Jikan API](https://jikan.moe/) - Anime data
+
+---
+
+<div align="center">
+Made with ❤️ by the Koisuru-project team
+</div>
