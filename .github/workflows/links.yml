@@ -3,21 +3,24 @@ name: Links
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 0 * * 1"
+        - cron: "0 0 * * 1" # Runs at 00:00 on Monday
 
 jobs:
     linkChecker:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@main
+            - uses: actions/checkout@v4
 
             - name: Link Checker
               id: lychee
               uses: lycheeverse/lychee-action@master
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
                   args: >-
                       --exclude-all-private
-                      --verbose --no-progress
+                      --verbose
+                      --no-progress
                       --user-agent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'
                       --max-redirects 10
                       --header "accept=*/*"
@@ -27,18 +30,14 @@ jobs:
                       --exclude '^https://cdn.lewd.host'
                       --exclude '^https://discordapp.com'
                       --exclude '^https://adguard-dns.io'
-                      '~/public/data/*.json'
-
-            #           Public trackers, streaming sites, crunchyroll, kodi, qbittorrent, etc return 403
-            #           Nyaa returns 429
-            #           ./docs/hidden has unmaintained legacy files
-            #           AMD fails for reasons unknown to me, exhentai is private, and nzbking has bad uptime
-            #           DNS AdGuard getting Err
+                      './public/data/*.json'
 
             - name: Create Issue From File
-              if: env.lychee_exit_code != 0
-              uses: peter-evans/create-issue-from-file@main
+              if: failure()
+              uses: peter-evans/create-issue-from-file@v3
               with:
                   title: Link Checker Report
                   content-filepath: ./lychee/out.md
-                  labels: report, automated issue
+                  labels: |
+                      report
+                      automated issue
