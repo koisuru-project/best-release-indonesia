@@ -27,7 +27,7 @@ jobs:
                       --exclude '^https://cdn.lewd.host'
                       --exclude '^https://discordapp.com'
                       --exclude '^https://adguard-dns.io'
-                      './**/*.md'
+                      '~/public/data/*.json'
 
             #           Public trackers, streaming sites, crunchyroll, kodi, qbittorrent, etc return 403
             #           Nyaa returns 429
