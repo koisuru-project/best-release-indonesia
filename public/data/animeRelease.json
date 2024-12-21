@@ -21,25 +21,6 @@
     {
         "malId": 34618,
         "title": "Blend S",
-        "bestReleases": [
-            {
-                "name": ["smol + UBW"]
-            }
-        ],
-        "bestAlternatives": [
-            {
-                "name": "[pololer]",
-                "description": "Beatrice-Raws",
-                "downloadLinks": [
-                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Citrus%20%28BDRip%201920x1080%20x264%20FLAC%29/"
-                ]
-            }
-        ],
-        "notes": "UBW (Moesubs (1-5), Kuroyuri (6-12))"
-    },
-    {
-        "malId": 34618,
-        "title": "Blend S",
         "bestAlternatives": [
             {
                 "name": "[pololer]",
@@ -60,6 +41,25 @@
             }
         ],
         "notes": "Video:\n sam \n Takarir: \n Nge-Sub (Edited)"
+    },
+    {
+        "malId": 34382,
+        "title": "Citrus",
+        "bestReleases": [
+            {
+                "name": ["smol + UBW"]
+            }
+        ],
+        "bestAlternatives": [
+            {
+                "name": "[pololer]",
+                "description": "Beatrice-Raws",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Citrus%20%28BDRip%201920x1080%20x264%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "UBW (Moesubs (1-5), Kuroyuri (6-12))"
     },
     {
         "malId": 32901,
