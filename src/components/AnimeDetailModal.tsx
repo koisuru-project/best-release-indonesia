@@ -72,7 +72,7 @@ export const AnimeDetailModal: React.FC<AnimeDetailModalProps> = ({ isOpen, onCl
                                         )}
                                         {selectedRelease.qualityComparisons && (
                                             <Tab key="quality" title="Quality">
-                                                <div className="p-2">
+                                                <div className="p-2 space-y-2">
                                                     <TextFormatter text={selectedRelease.qualityComparisons} />
                                                 </div>
                                             </Tab>

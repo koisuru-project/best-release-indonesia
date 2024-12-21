@@ -83,7 +83,7 @@ export function Providers({ children }: { children: React.ReactNode }) {
             }
         ],
         "notes": "Additional notes about the release",
-        "qualityComparisons": "Quality comparison details",
+        "qualityComparisons": "Quality comparison links",
         "missingReleases": "Information about missing releases"
     }
 ]
