@@ -173,6 +173,19 @@
         "notes": "Video :\nsergey_krs\nTakarir :\n- Pantsubber"
     },
     {
+        "malId": 31500,
+        "title": "High School Fleet",
+        "bestReleases": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20High%20School%20Fleet%20%28BDRip%201920x1080%20x264%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n Beatrice-Raws \n Takarir:\n Tiramisubs (edited)"
+    },
+    {
         "malId": 40787,
         "title": "Josee to Tora to Sakana-tachi",
         "bestReleases": [
@@ -230,6 +243,11 @@
         "malId": 18153,
         "title": "Kyoukai no Kanata",
         "bestReleases": [
+            {
+                "name": "MTBB + Pantsubber [bagus089]"
+            }
+        ],
+        "bestAlternatives": [
             {
                 "name": "S1 : [pololer]",
                 "description": "1080p",
@@ -323,6 +341,51 @@
             }
         ],
         "notes": "Video :\nSCY\nTakarir :\n- AWSubs-NDs\n- Souki-Hassou"
+    },
+    {
+        "malId": 19815,
+        "title": "No Game No Life",
+        "bestReleases": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20No%20Game%20No%20Life%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n Kawaiika-Raws \n Takarir:\n Tiramisubs"
+    },
+    {
+        "malId": 8769,
+        "title": "Ore no Imouto ga Konnani Kawaii Wake ga Nai",
+        "bestReleases": [
+            {
+                "name": "S1: [pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Ore%20no%20Imouto%20ga%20Konnani%20Kawaii%20Wake%20ga%20Nai%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            },
+            {
+                "name": "S2 : [pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Ore%20no%20Imouto%20ga%20Konnani%20Kawaii%20Wake%20ga%20Nai.%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n Reza \n Takarir:\n Pantsubber"
+    },
+    {
+        "malId": 14749,
+        "title": "Ore no Kanojo to Osananajimi ga Shuraba Sugiru",
+        "bestReleases": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Ore%20no%20Imouto%20ga%20Konnani%20Kawaii%20Wake%20ga%20Nai%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n Yousei-raws \n Takarir:\n Moesubs"
     },
     {
         "malId": 52991,
