@@ -1,5 +1,68 @@
 [
     {
+        "malId": 50275,
+        "title": "Gekijouban Sword Art Online Progressive - Kuraki Yuuyami no Scherzo",
+        "bestReleases": [
+            {
+                "name": "[Koisuru x MendingTuru]",
+                "description": "BDRemux ITA BD",
+                "downloadLinks": ["https://justpaste.it/daa15"]
+            }
+        ],
+        "notes": "Video:\n BDRemux ITA BD \n Skrip: \n OPLoverz"
+    },
+    {
+        "malId": 50346,
+        "title": "Yofukashi no Uta",
+        "bestReleases": [
+            {
+                "name": "[Koisuru]",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/19ilDewU_PQ9Ep4NjYzWYAVt-3DIZEKYx?usp=sharing"
+                ]
+            }
+        ],
+        "notes": "-"
+    },
+    {
+        "malId": 50425,
+        "title": "Fuufu Ijou, Koibito Miman",
+        "bestReleases": [
+            {
+                "name": "[Koisuru]",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/11L-Iet9c6zLZBTAxNPw6K4XXDRQ_Sm68?usp=sharing"
+                ]
+            }
+        ],
+        "notes": "-"
+    },
+    {
+        "malId": 52991,
+        "title": "Sousou no Frieren",
+        "bestReleases": [
+            {
+                "name": "[Koisuru]",
+                "description": "WEB 1080p",
+                "downloadLinks": ["https://drive.google.com/drive/folders/1Rph_L5GVVsm7KnOtZF9XmAsMSWL9_LXv"]
+            }
+        ],
+        "notes": "Video:\n 9volt \n Skrip:\n Bstation (edited)"
+    },
+    {
+        "malId": 10110,
+        "title": "Mayo Chiki!",
+        "bestReleases": [
+            {
+                "name": "[Koisuru]",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/1euZ1-ZloeV7bWZxhBaWcKVCKSQk1aE1k?usp=sharing"
+                ]
+            }
+        ],
+        "notes": "Video:\n VCB-Studio \n Skrip:\n Melody Fansub \n AnimeSubIND"
+    },
+    {
         "malId": 37786,
         "title": "Yagate Kimi ni Naru",
         "bestReleases": [
