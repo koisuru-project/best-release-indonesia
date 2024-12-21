@@ -192,7 +192,7 @@ Contributions are welcome! Feel free to:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Aruh1/best-release-indonesia/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgments
 
