@@ -186,6 +186,19 @@
         "notes": "Video:\n Beatrice-Raws \n Takarir:\n Tiramisubs (edited)"
     },
     {
+        "malId": 34834,
+        "title": "Hina Logi: From Luck & Logic",
+        "bestAlternatives": [
+            {
+                "name": "[Caramel]",
+                "description": "BD 720p",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/1rS9IdHtfQ7Yu_1HhhaaVu-gfqft8Z0VA?usp=sharing"
+                ]
+            }
+        ]
+    },
+    {
         "malId": 40787,
         "title": "Josee to Tora to Sakana-tachi",
         "bestReleases": [
@@ -354,6 +367,27 @@
             }
         ],
         "notes": "Video:\n Kawaiika-Raws \n Takarir:\n Tiramisubs"
+    },
+    {
+        "malId": 17549,
+        "title": "Non Non Biyori",
+        "bestReleases": [
+            {
+                "name": "S1: [pololer]",
+                "description": "Tiramisubs (D-AnimeSub)",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/[pololer]%20Non%20Non%20Biyori%20(BDRip%201920x1080%20HEVC%20FLAC)/"
+                ]
+            },
+            {
+                "name": "S3: [pololer]",
+                "description": "DuraMel",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/[pololer]%20Non%20Non%20Biyori%20Nonstop%20(BDRip%201920x1080%20HEVC%20FLAC)/"
+                ]
+            }
+        ],
+        "notes": "Video :\nKawaiika-Raws"
     },
     {
         "malId": 8769,
