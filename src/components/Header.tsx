@@ -18,6 +18,9 @@ const Header = () => {
                         <Button as={Link} href="/" variant="light" className="text-default-600">
                             Home
                         </Button>
+                        <Button as={Link} href="https://db.koisuru.web.id/" className="text-default-600">
+                            Database Softsub
+                        </Button>
                         <Button as={Link} href="/faq" variant="light" className="text-default-600">
                             FAQ
                         </Button>
