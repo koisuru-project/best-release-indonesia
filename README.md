@@ -7,7 +7,7 @@
 [![NextUI](https://img.shields.io/badge/NextUI-Latest-000000?style=for-the-badge)](https://nextui.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-A searchable anime release table component built with Next.js and NextUI, featuring detailed information modals and comprehensive release tracking.
+A searchable Best Release Indonesia table component built with Next.js and NextUI, featuring detailed information modals and comprehensive release tracking.
 
 [Features](#features) •
 [Installation](#installation) •
