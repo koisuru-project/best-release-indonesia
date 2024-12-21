@@ -1,5 +1,56 @@
 [
     {
+        "malId": 39790,
+        "title": "Adachi to Shimamura",
+        "bestReleases": [
+            {
+                "name": ["smol + Aizukara-Melody"]
+            }
+        ],
+        "bestAlternatives": [
+            {
+                "name": "[pololer]",
+                "description": "WBDP? CsS? Ntah lah",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Adachi%20to%20Shimamura%20%28BDRip%201080p%20x264%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Takarir:\n Aizukara-Melody"
+    },
+    {
+        "malId": 34618,
+        "title": "Blend S",
+        "bestReleases": [
+            {
+                "name": ["smol + UBW"]
+            }
+        ],
+        "bestAlternatives": [
+            {
+                "name": "[pololer]",
+                "description": "Beatrice-Raws",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Citrus%20%28BDRip%201920x1080%20x264%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "UBW (Moesubs (1-5), Kuroyuri (6-12))"
+    },
+    {
+        "malId": 34618,
+        "title": "Blend S",
+        "bestAlternatives": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Blend%20S%20%28BDRip%201920x1080%20x264%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Manga Neko (D-AnimeSub) [Default]\n - Kuroyuri (Kusonime)"
+    },
+    {
         "malId": 44511,
         "title": "Chainsaw Man",
         "bestReleases": [
@@ -296,6 +347,20 @@
             }
         ],
         "notes": "Video:\n BDRemux ITA BD \n Skrip: \n OPLoverz"
+    },
+    {
+        "malId": 53516,
+        "title": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
+        "bestAlternatives": [
+            {
+                "name": "[Lloyrd]",
+                "description": "WEBRip 1080p",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5BLlyord%5D%20Tensei%20shitara%20Dainana%20Ouji%20Datta%20node%2C%20Kimama%20ni%20Majutsu%20wo%20Kiwamemasu%20%28WEBRip%201920x1080%20HEVC%20AAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n pololer \n Takarir:\n Durandal Fansub"
     },
     {
         "malId": 33352,
