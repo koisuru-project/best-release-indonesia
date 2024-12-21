@@ -1,80 +1,5 @@
 [
     {
-        "malId": 50275,
-        "title": "Gekijouban Sword Art Online Progressive - Kuraki Yuuyami no Scherzo",
-        "bestReleases": [
-            {
-                "name": "[Koisuru x MendingTuru]",
-                "description": "BDRemux ITA BD",
-                "downloadLinks": ["https://justpaste.it/daa15"]
-            }
-        ],
-        "notes": "Video:\n BDRemux ITA BD \n Skrip: \n OPLoverz"
-    },
-    {
-        "malId": 50346,
-        "title": "Yofukashi no Uta",
-        "bestReleases": [
-            {
-                "name": "[Koisuru]",
-                "downloadLinks": [
-                    "https://drive.google.com/drive/folders/19ilDewU_PQ9Ep4NjYzWYAVt-3DIZEKYx?usp=sharing"
-                ]
-            }
-        ],
-        "notes": "-"
-    },
-    {
-        "malId": 50425,
-        "title": "Fuufu Ijou, Koibito Miman",
-        "bestReleases": [
-            {
-                "name": "[Koisuru]",
-                "downloadLinks": [
-                    "https://drive.google.com/drive/folders/11L-Iet9c6zLZBTAxNPw6K4XXDRQ_Sm68?usp=sharing"
-                ]
-            }
-        ],
-        "notes": "-"
-    },
-    {
-        "malId": 52991,
-        "title": "Sousou no Frieren",
-        "bestReleases": [
-            {
-                "name": "[Koisuru]",
-                "description": "WEB 1080p",
-                "downloadLinks": ["https://drive.google.com/drive/folders/1Rph_L5GVVsm7KnOtZF9XmAsMSWL9_LXv"]
-            }
-        ],
-        "notes": "Video:\n 9volt \n Skrip:\n Bstation (edited)"
-    },
-    {
-        "malId": 10110,
-        "title": "Mayo Chiki!",
-        "bestReleases": [
-            {
-                "name": "[Koisuru]",
-                "downloadLinks": [
-                    "https://drive.google.com/drive/folders/1euZ1-ZloeV7bWZxhBaWcKVCKSQk1aE1k?usp=sharing"
-                ]
-            }
-        ],
-        "notes": "Video:\n VCB-Studio \n Skrip:\n AnimeSubIND"
-    },
-    {
-        "malId": 37786,
-        "title": "Yagate Kimi ni Naru",
-        "bestReleases": [
-            {
-                "name": "[pololer]",
-                "downloadLinks": ["https://pololer.yurasu.xyz/2024/09/Tak-Lama-Lagi-Aku-Menjadi-Dirimu.html"]
-            }
-        ],
-        "notes": "Video:\n smol \n Skrip:\n Melody Fansub",
-        "qualityComparisons": "https://slow.pics/c/JjKGWWEx"
-    },
-    {
         "malId": 32901,
         "title": "Eromanga-sensei",
         "bestReleases": [
@@ -122,6 +47,19 @@
             }
         ],
         "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Delima\n- Moesubs [VFK Edit] (Default)\n- Neosubs\n- Pucuk"
+    },
+    {
+        "malId": 50425,
+        "title": "Fuufu Ijou, Koibito Miman",
+        "bestReleases": [
+            {
+                "name": "[Koisuru]",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/11L-Iet9c6zLZBTAxNPw6K4XXDRQ_Sm68?usp=sharing"
+                ]
+            }
+        ],
+        "notes": "-"
     },
     {
         "malId": 21273,
@@ -300,6 +238,19 @@
         "notes": "Season 1\nVideo :\nBeatrice-Raws\nTakarir :\n- Yukimisu\nOVA\nVideo :\nUCCUSS\nTakarir :\n- Yukimisu\n- TamanBunga\n- Zensubs"
     },
     {
+        "malId": 10110,
+        "title": "Mayo Chiki!",
+        "bestReleases": [
+            {
+                "name": "[Koisuru]",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/1euZ1-ZloeV7bWZxhBaWcKVCKSQk1aE1k?usp=sharing"
+                ]
+            }
+        ],
+        "notes": "Video:\n VCB-Studio \n Skrip:\n AnimeSubIND"
+    },
+    {
         "malId": 15315,
         "title": "Mondaiji-tachi ga Isekai kara Kuru Sou desu yo?",
         "bestReleases": [
@@ -312,6 +263,34 @@
         "notes": "Video :\nSCY\nTakarir :\n- AWSubs-NDs\n- Souki-Hassou"
     },
     {
+        "malId": 52991,
+        "title": "Sousou no Frieren",
+        "bestReleases": [
+            {
+                "name": "[Koisuru]",
+                "description": "WEB 1080p",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/1Rph_L5GVVsm7KnOtZF9XmAsMSWL9_LXv"
+                ]
+            }
+        ],
+        "notes": "Video:\n 9volt \n Skrip:\n Bstation (edited)"
+    },
+    {
+        "malId": 50275,
+        "title": "Sword Art Online Progressive - Kuraki Yuuyami no Scherzo",
+        "bestReleases": [
+            {
+                "name": "[Koisuru x MendingTuru]",
+                "description": "BDRemux ITA BD",
+                "downloadLinks": [
+                    "https://justpaste.it/daa15"
+                ]
+            }
+        ],
+        "notes": "Video:\n BDRemux ITA BD \n Skrip: \n OPLoverz"
+    },
+    {
         "malId": 33352,
         "title": "Violet Evergarden",
         "bestReleases": [
@@ -322,5 +301,32 @@
             }
         ],
         "notes": "Season 1\nVideo :\nSCY\nTakarir :\n- Ankoku\nGekijouban Violet Evergarden (2020)\nVideo :\nBeatrice-Raws\nTakarir :\n- Vi_Filter-kun (Default)\n- Pucuk\n- Hunter no Sekai\n- Reza (English)"
+    },
+    {
+        "malId": 37786,
+        "title": "Yagate Kimi ni Naru",
+        "bestReleases": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://pololer.yurasu.xyz/2024/09/Tak-Lama-Lagi-Aku-Menjadi-Dirimu.html"
+                ]
+            }
+        ],
+        "notes": "Video:\n smol \n Skrip:\n Melody Fansub",
+        "qualityComparisons": "https://slow.pics/c/JjKGWWEx"
+    },
+    {
+        "malId": 50346,
+        "title": "Yofukashi no Uta",
+        "bestReleases": [
+            {
+                "name": "[Koisuru]",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/19ilDewU_PQ9Ep4NjYzWYAVt-3DIZEKYx?usp=sharing"
+                ]
+            }
+        ],
+        "notes": "-"
     }
 ]
