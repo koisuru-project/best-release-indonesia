@@ -26,7 +26,14 @@ const AnimeReleaseTable: React.FC = () => {
 
     const isLoading = isReleasesLoading || isAnimeDataLoading;
 
-    if (isLoading && filteredReleases.length === 0) {
+    // Sort the filtered releases alphabetically
+    const sortedReleases = [...filteredReleases].sort((a, b) => {
+        const titleA = animeDataCache[a.malId]?.title || a.title;
+        const titleB = animeDataCache[b.malId]?.title || b.title;
+        return titleA.localeCompare(titleB);
+    });
+
+    if (isLoading && sortedReleases.length === 0) {
         return <LoadingSpinner status={loadingStatus} />;
     }
 
@@ -49,7 +56,7 @@ const AnimeReleaseTable: React.FC = () => {
                         <TableColumn className="min-w-[200px]">English Title</TableColumn>
                     </TableHeader>
                     <TableBody emptyContent="No releases found">
-                        {filteredReleases.map(release => {
+                        {sortedReleases.map(release => {
                             const animeData = animeDataCache[release.malId];
 
                             return (

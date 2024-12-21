@@ -1,7 +1,19 @@
 [
     {
-        "title": "Eromanga-sensei",
+        "malId": 37786,
+        "title": "Yagate Kimi ni Naru",
+        "bestReleases": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": ["https://pololer.yurasu.xyz/2024/09/Tak-Lama-Lagi-Aku-Menjadi-Dirimu.html"]
+            }
+        ],
+        "notes": "Video:\n smol \n Skrip:\n Melody Fansub",
+        "qualityComparisons": "https://slow.pics/c/JjKGWWEx"
+    },
+    {
         "malId": 32901,
+        "title": "Eromanga-sensei",
         "bestReleases": [
             {
                 "name": "[VFK]",
@@ -13,8 +25,8 @@
         "missingReleases": "Episode 01-12\n- Delima (Delsubs)\n- Melody\n\nEpisode OVA 01-02\n- Idol Project"
     },
     {
-        "title": "Fate/stay night [Heaven's Feel] I.",
         "malId": 25537,
+        "title": "Fate/stay night [Heaven's Feel] I.",
         "bestReleases": [
             {
                 "name": "[VFK]",
@@ -25,8 +37,8 @@
         "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Delima\n- Moesubs [VFK Edit] (Default)\n- Neosubs\n- Pucuk"
     },
     {
-        "title": "Fate/stay night [Heaven's Feel] II.",
         "malId": 33049,
+        "title": "Fate/stay night [Heaven's Feel] II.",
         "bestReleases": [
             {
                 "name": "[VFK]",
@@ -37,8 +49,8 @@
         "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Delima\n- Moesubs [VFK Edit] (Default)\n- Neosubs\n- Pucuk"
     },
     {
-        "title": "Fate/stay night [Heaven's Feel] III.",
         "malId": 33050,
+        "title": "Fate/stay night [Heaven's Feel] III.",
         "bestReleases": [
             {
                 "name": "[VFK]",
@@ -49,8 +61,8 @@
         "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Delima\n- Moesubs [VFK Edit] (Default)\n- Neosubs\n- Pucuk"
     },
     {
-        "title": "Gochuumon wa Usagi Desuka",
         "malId": 21273,
+        "title": "Gochuumon wa Usagi Desuka",
         "bestReleases": [
             {
                 "name": "S1 : [pololer]",
@@ -70,32 +82,36 @@
         "notes": "Season 1\nVideo :\nYousei-Raws\nTakarir :\n- Tiramisu\nSeason 2\nVideo :\nBeatrice-Raws\nTakarir :\n- Tiramisu"
     },
     {
-        "title": "Hanasaku Iroha",
-        "malId": 9289,
+        "malId": 14175,
+        "title": "Hanasaku Iroha: Home Sweet Home",
         "bestReleases": [
             {
-                "name": "M1 : [pololer]",
+                "name": "[pololer]",
                 "description": "1080p",
-                "downloadLinks": []
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Hanasaku%20Iroha%20-%20Home%20Sweet%20Home%20v2%20%28BDrip%201920x1080%20x264%20FLAC%29/"
+                ]
             }
         ],
         "notes": "Hanasaku Iroha - Home Sweet Home\nVideo :\nYousei-raws\nTakarir :\n- Wire-subs\n- Jal x AIA\n- Zensub"
     },
     {
-        "title": "Hibike! Euphonium",
         "malId": 27989,
-        "bestReleases": [
+        "title": "Hibike! Euphonium",
+        "bestAlternatives": [
             {
                 "name": "S1 : [pololer]",
                 "description": "1080p",
-                "downloadLinks": []
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/[pololer]%20Hibike!%20Euphonium%20(Sound!%20Euphonium)%20(BDRip%201920x1080%20x264%20FLAC)/"
+                ]
             }
         ],
         "notes": "Video :\nsergey_krs\nTakarir :\n- Pantsubber"
     },
     {
-        "title": "Josee to Tora to Sakana-tachi",
         "malId": 40787,
+        "title": "Josee to Tora to Sakana-tachi",
         "bestReleases": [
             {
                 "name": "[VFK]",
@@ -114,20 +130,22 @@
         "qualityComparisons": "https://slow.pics/c/gGl8pL8m"
     },
     {
-        "title": "Kamisama no Memochou",
         "malId": 10568,
+        "title": "Kamisama no Memochou",
         "bestReleases": [
             {
                 "name": "[pololer]",
                 "description": "1080p",
-                "downloadLinks": []
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/[pololer]%20Kamisama%20no%20Memochou%20(BDRip%201920x1080%20x264%20FLAC)/"
+                ]
             }
         ],
         "notes": "Video :\nsergey_krs\nTakarir :\n- D-AnimeSub"
     },
     {
-        "title": "Koe no Katachi",
         "malId": 28851,
+        "title": "Koe no Katachi",
         "bestReleases": [
             {
                 "name": "[VFK] ITABD",
@@ -146,64 +164,69 @@
         "qualityComparisons": "https://slow.pics/c/DIbTimRA"
     },
     {
-        "title": "Kyoukai no Kanata",
         "malId": 18153,
+        "title": "Kyoukai no Kanata",
         "bestReleases": [
             {
                 "name": "S1 : [pololer]",
                 "description": "1080p",
-                "downloadLinks": []
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/[pololer]%20Kyoukai%20no%20Kanata%20(BDRip%201920x1080%20x264%20FLAC)/"
+                ]
             }
         ],
         "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Japanese [PGS]\n- [Moesubs/FFF] Pantsubber Edit oleh Menggabut [bagus089] (Default)"
     },
     {
-        "title": "Magia Record",
         "malId": 38256,
+        "title": "Magia Record",
         "bestReleases": [
             {
                 "name": "S1 : [pololer]",
                 "description": "1080p",
-                "downloadLinks": []
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/[pololer]%20Magia%20Record%20Mahou%20Shoujo%20Madoka%E2%98%86Magica%20Gaiden%20(BDRip%201920x1080%20HEVC%20FLAC)/"
+                ]
             }
         ],
         "notes": "Video :\nKawaiika-Raws\nTakarir :\n- DuraMel (Durandal Melody)\n- Iroha (Caramel Edit Akatetsu) [Default]"
     },
     {
-        "title": "Mahou Shoujo Madoka☆Magica",
         "malId": 9756,
+        "title": "Mahou Shoujo Madoka☆Magica",
         "bestReleases": [
             {
                 "name": "S1 : [pololer]",
                 "description": "1080p",
-                "downloadLinks": []
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/[pololer]%20Mahou%20Shoujo%20Madoka%E2%98%86Magica%20(BDrip%201920x1080%20x264%20FLAC)/"
+                ]
             },
             {
-                "name": "M1 : [pololer]",
+                "name": "M1-M3 : [pololer]",
                 "description": "1080p",
-                "downloadLinks": []
-            },
-            {
-                "name": "M2 : [pololer]",
-                "description": "1080p",
-                "downloadLinks": []
-            },
-            {
-                "name": "M3 : [pololer]",
-                "description": "1080p",
-                "downloadLinks": []
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/[pololer]%20Mahou%20Shoujo%20Madoka%E2%98%85Magica%20Movie%20Trilogy%20(BDRip%201920x1080%20HEVC%20FLAC%20DTS)%20[Dual%20Audio]/"
+                ]
             }
         ],
         "notes": "Season 1\nVideo :\nYousei-raws\nTakarir :\n- AnimeSubIND-Se~No!\n- NeoSubs\nMovie 1~3 (Trilogy)\nVideo :\nKawaiika-Raws\nTakarir :\n- Tiramisu"
     },
     {
-        "title": "Masamune-kun no Revenge",
         "malId": 33487,
+        "title": "Masamune-kun no Revenge",
         "bestReleases": [
+            {
+                "name": "smol + Yukimisu + TamanBunga + Zensub"
+            }
+        ],
+        "bestAlternatives": [
             {
                 "name": "S1 : [pololer]",
                 "description": "1080p",
-                "downloadLinks": []
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/[pololer]%20Masamune-kun%20no%20Revenge%20(BDRip%201920x1080%20x264%20FLAC)/"
+                ]
             },
             {
                 "name": "OVA : [VFK]",
@@ -214,8 +237,8 @@
         "notes": "Season 1\nVideo :\nBeatrice-Raws\nTakarir :\n- Yukimisu\nOVA\nVideo :\nUCCUSS\nTakarir :\n- Yukimisu\n- TamanBunga\n- Zensubs"
     },
     {
-        "title": "Mondaiji-tachi ga Isekai kara Kuru Sou desu yo?",
         "malId": 15315,
+        "title": "Mondaiji-tachi ga Isekai kara Kuru Sou desu yo?",
         "bestReleases": [
             {
                 "name": "[VFK]",
@@ -226,8 +249,8 @@
         "notes": "Video :\nSCY\nTakarir :\n- AWSubs-NDs\n- Souki-Hassou"
     },
     {
-        "title": "Violet Evergarden",
         "malId": 33352,
+        "title": "Violet Evergarden",
         "bestReleases": [
             {
                 "name": "S1 :",
