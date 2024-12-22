@@ -253,6 +253,31 @@
         "qualityComparisons": "https://slow.pics/c/DIbTimRA"
     },
     {
+        "malId": 30831,
+        "title": "Kono Subarashii Sekai ni Shukufuku wo!",
+        "bestReleases": [
+            {
+                "name": "S1: [pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo%21%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            },
+            {
+                "name": "S2: [pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo%21%202%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            },
+            {
+                "name": "Movie1: [pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Kono%20Subarashii%20Sekai%20ni%20Shukufuku%20wo%21%20Kurenai%20Densetsu%20%28BDRip%201920x1080%20HEVC%20FLAC%29%20%5B1E988048%5D.mkv"
+                ]
+            }
+        ],
+        "notes": "Video:\n Kawaiika-raws \n S1: Tiramisubs \n S2: Tiramisubs (Baguss089)\n Movie: Tiramisubs dan SilverYasha"
+    },
+    {
         "malId": 18153,
         "title": "Kyoukai no Kanata",
         "bestReleases": [
@@ -270,6 +295,20 @@
             }
         ],
         "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Japanese [PGS]\n- [Moesubs/FFF] Pantsubber Edit oleh Menggabut [bagus089] (Default)"
+    },
+    {
+        "malId": 50709,
+        "title": "Lycoris Recoil",
+        "bestReleases": [
+            {
+                "name": "smol + Haruzora (N4O)"
+            },
+            {
+                "name": "[N4O]",
+                "downloadLinks": ["https://shigoto.n4o.xyz/r/lycoreco-bd-complete"]
+            }
+        ],
+        "notes": "Video:\n N4O \n Takarir:\n Haruzora (N4O)"
     },
     {
         "malId": 38256,
@@ -290,21 +329,27 @@
         "title": "Mahou Shoujo Madoka☆Magica",
         "bestReleases": [
             {
-                "name": "S1 : [pololer]",
-                "description": "1080p",
-                "downloadLinks": [
-                    "https://www.pololer.web.id/0:/[pololer]%20Mahou%20Shoujo%20Madoka%E2%98%86Magica%20(BDrip%201920x1080%20x264%20FLAC)/"
-                ]
+                "name": "S1 : MTBB + AnimeSubIND-Se~No!, NeoSubs"
             },
             {
                 "name": "M1-M3 : [pololer]",
-                "description": "1080p",
+                "description": "Kawaiika-raws. Untuk Movie 3 kita merekomendasi menggunakan MTBB",
                 "downloadLinks": [
                     "https://www.pololer.web.id/0:/[pololer]%20Mahou%20Shoujo%20Madoka%E2%98%85Magica%20Movie%20Trilogy%20(BDRip%201920x1080%20HEVC%20FLAC%20DTS)%20[Dual%20Audio]/"
                 ]
             }
         ],
-        "notes": "Season 1\nVideo :\nYousei-raws\nTakarir :\n- AnimeSubIND-Se~No!\n- NeoSubs\nMovie 1~3 (Trilogy)\nVideo :\nKawaiika-Raws\nTakarir :\n- Tiramisu"
+        "bestAlternatives": [
+            {
+                "name": "S1 : [pololer]",
+                "description": "Yousei-raws",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/[pololer]%20Mahou%20Shoujo%20Madoka%E2%98%86Magica%20(BDrip%201920x1080%20x264%20FLAC)/"
+                ]
+            }
+        ],
+        "notes": "Season 1\nVideo :\nYousei-raws\nTakarir :\n- AnimeSubIND-Se~No!\n- NeoSubs\nMovie 1~3 (Trilogy)\nVideo :\nKawaiika-Raws\nTakarir :\n- Tiramisu",
+        "qualityComparisons": ["https://slow.pics/c/zecFOCyh", "https://slow.pics/c/rGRgWkb8"]
     },
     {
         "malId": 33487,
@@ -458,6 +503,19 @@
             }
         ],
         "notes": "Video:\n pololer \n Takarir:\n Durandal Fansub"
+    },
+    {
+        "malId": 34902,
+        "title": "Tsurezure Children",
+        "bestReleases": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Tsurezure%20Children%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n Kawaiika-raws \n Takarir:\n Yukisubs (N4O)"
     },
     {
         "malId": 33352,
