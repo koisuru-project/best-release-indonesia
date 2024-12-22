@@ -3,6 +3,7 @@
 import React from "react";
 import { Github } from "lucide-react";
 import { Button } from "@nextui-org/react";
+import { FaDiscord } from "react-icons/fa6";
 import ThemeToggle from "./ThemeToggle";
 import Link from "next/link";
 
@@ -34,6 +35,17 @@ const Header = () => {
                 </div>
                 <div className="flex items-center gap-2">
                     <ThemeToggle />
+                    <Button
+                        as="a"
+                        href="https://discord.gg/za7XeBK8tS"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        isIconOnly
+                        variant="light"
+                        className="text-default-500"
+                    >
+                        <FaDiscord size={20} />
+                    </Button>
                     <Button
                         as="a"
                         href="https://github.com/Aruh1/best-release-indonesia"

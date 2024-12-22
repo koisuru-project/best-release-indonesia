@@ -7,27 +7,37 @@ const FaqPage = () => {
         {
             title: "Apa itu Best Release Indonesia?",
             content:
-                "Best Release Indonesia adalah platform yang menyediakan informasi terkini tentang rilis anime di Indonesia, membantu penggemar tetap mendapatkan update mengenai anime terbaik yang tersedia di tanah air."
+                "Best Release Indonesia adalah platform yang menghadirkan informasi terbaru tentang rilis anime di Indonesia. Kami membantu penggemar anime tetap terhubung dengan rilisan anime terbaik yang tersedia di tanah air."
         },
         {
             title: "Seberapa sering konten diperbarui?",
             content:
-                "Informasi rilis anime kami diperbarui secara berkala untuk memastikan Anda selalu mendapatkan informasi terbaru tentang dunia anime di Indonesia."
-        },
-        {
-            title: "Bagaimana cara saya berkontribusi?",
-            content:
-                "Anda dapat berkontribusi melalui repositori GitHub kami. Kami menerima saran, laporan bug, dan *pull request* untuk meningkatkan platform ini."
+                "Informasi tentang rilis anime diperbarui secara berkala agar kamu selalu mendapatkan kabar terbaru mengenai dunia anime di Indonesia."
         },
         {
             title: "Apakah layanan ini gratis?",
             content:
-                "Ya, Best Release Indonesia sepenuhnya gratis untuk digunakan. Kami berkomitmen untuk membuat informasi anime dapat diakses oleh semua penggemar di Indonesia."
+                "Tentu saja! Best Release Indonesia sepenuhnya gratis. Kami berkomitmen untuk menyediakan informasi anime yang mudah diakses oleh semua penggemar di Indonesia."
         },
         {
-            title: "Bagaimana menentukan rilis 'terbaik'?",
+            title: "Bagaimana cara saya berkontribusi?",
             content:
-                "Kami mempertimbangkan berbagai faktor seperti kualitas video, akurasi terjemahan, dan nilai produksi secara keseluruhan untuk menentukan rilis terbaik dari setiap judul anime."
+                "Kamu dapat berkontribusi melalui repositori GitHub kami. Kami dengan senang hati menerima saran, laporan bug, dan *pull request* untuk pengembangan platform ini."
+        },
+        {
+            title: "Apa teknologi yang digunakan untuk website ini?",
+            content:
+                "Website ini dibangun menggunakan React, Next.js, dan NextUI. Untuk API, kami menggunakan Jikan API (Unofficial MyAnimeList) untuk mengambil data seperti judul asli, judul dalam bahasa Inggris, dan poster anime."
+        },
+        {
+            title: "Bagaimana cara menentukan rilisan 'terbaik'?",
+            content:
+                "Kami mengevaluasi berbagai aspek seperti kualitas video, audio, akurasi terjemahan, dan nilai produksi secara keseluruhan untuk menentukan rilisan terbaik dari setiap judul anime."
+        },
+        {
+            title: "Apakah aku bisa memasukkan garapanku ke dalam rilisan terbaik?",
+            content:
+                "Kamu dapat bergabung dengan peladen Discord kami melalui ikon di bagian kanan atas. Silakan *mention* Pololer atau Karuizawa Kei agar garapanmu dapat dipertimbangkan."
         }
     ];
 
