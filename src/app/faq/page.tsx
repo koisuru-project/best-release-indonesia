@@ -5,29 +5,29 @@ import { Card, CardBody } from "@nextui-org/react";
 const FaqPage = () => {
     const faqItems = [
         {
-            title: "What is Best Release Indonesia?",
+            title: "Apa itu Best Release Indonesia?",
             content:
-                "Best Release Indonesia is a platform that provides information about anime releases in Indonesia, helping fans stay updated with the latest and best anime content available in the region."
+                "Best Release Indonesia adalah platform yang menyediakan informasi terkini tentang rilis anime di Indonesia, membantu penggemar tetap mendapatkan update mengenai anime terbaik yang tersedia di tanah air."
         },
         {
-            title: "How often is the content updated?",
+            title: "Seberapa sering konten diperbarui?",
             content:
-                "Our anime release information is updated regularly to ensure you have access to the most recent releases and changes in the Indonesian anime scene."
+                "Informasi rilis anime kami diperbarui secara berkala untuk memastikan Anda selalu mendapatkan informasi terbaru tentang dunia anime di Indonesia."
         },
         {
-            title: "How can I contribute?",
+            title: "Bagaimana cara saya berkontribusi?",
             content:
-                "You can contribute to our project through our GitHub repository. We welcome suggestions, bug reports, and pull requests to improve the platform."
+                "Anda dapat berkontribusi melalui repositori GitHub kami. Kami menerima saran, laporan bug, dan *pull request* untuk meningkatkan platform ini."
         },
         {
-            title: "Is this service free?",
+            title: "Apakah layanan ini gratis?",
             content:
-                "Yes, Best Release Indonesia is completely free to use. We aim to make anime information accessible to all fans in Indonesia."
+                "Ya, Best Release Indonesia sepenuhnya gratis untuk digunakan. Kami berkomitmen untuk membuat informasi anime dapat diakses oleh semua penggemar di Indonesia."
         },
         {
-            title: "How do you determine the 'best' releases?",
+            title: "Bagaimana menentukan rilis 'terbaik'?",
             content:
-                "We consider various factors including video quality, translation accuracy, and overall production value to determine the best releases for each anime title."
+                "Kami mempertimbangkan berbagai faktor seperti kualitas video, akurasi terjemahan, dan nilai produksi secara keseluruhan untuk menentukan rilis terbaik dari setiap judul anime."
         }
     ];
 
@@ -36,7 +36,7 @@ const FaqPage = () => {
             <Header />
             <main className="container mx-auto p-4">
                 <div className="max-w-3xl mx-auto">
-                    <h1 className="text-2xl font-bold mb-6">Frequently Asked Questions</h1>
+                    <h1 className="text-2xl font-bold mb-6">Pertanyaan yang Sering Diajukan</h1>
                     {faqItems.map((item, index) => (
                         <Card key={index} className="mb-4">
                             <CardBody>
