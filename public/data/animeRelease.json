@@ -233,6 +233,19 @@
         "notes": "Video :\nsergey_krs\nTakarir :\n- D-AnimeSub"
     },
     {
+        "malId": 37475,
+        "title": "Kishuku Gakkou no Juliet",
+        "bestReleases": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Kishuku%20Gakkou%20no%20Juliet%20%28BD%201080p%20HEVC%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n moscowgolem \n Takarir:\n Baguss089 \n Zensub"
+    },
+    {
         "malId": 28851,
         "title": "Koe no Katachi",
         "bestReleases": [
@@ -251,6 +264,32 @@
         ],
         "notes": "ITA-BD\nVideo :\nD-Z0N3\nJP-BD\nVideo :\nBeatrice-Raws\nTakarir :\n- [Anitoki]\n- [AWSubs]\n- [CenatCenut]\n- [Haruzorasubs]\n- [Hinose Fansub]\n- [Itsuwari]\n- [Moesubs]\n- [Montblanc v2 Biasa]\n- [Montblanc v2 Tiramisu - Vi_Filter-kun Edit] (Default)\n- [Montblanc v2 Tiramisu]\n- [NeoSubs]\n- [Wibusubs]\n- [Kametsu] - English",
         "qualityComparisons": "https://slow.pics/c/DIbTimRA"
+    },
+    {
+        "malId": 39388,
+        "title": "Koisuru Asteroid",
+        "bestReleases": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Koisuru%20Asteroid%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n Kawaiika-Raws \n Takarir:\n Melody Fansub"
+    },
+    {
+        "malId": 11887,
+        "title": "Kokoro Connect",
+        "bestReleases": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Kokoro%20Connect%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n Beatrice-Raws \n Takarir:\n Neosubs"
     },
     {
         "malId": 30831,
@@ -302,7 +341,9 @@
         "bestReleases": [
             {
                 "name": "smol + Haruzora (N4O)"
-            },
+            }
+        ],
+        "bestAlternatives": [
             {
                 "name": "[N4O]",
                 "downloadLinks": ["https://shigoto.n4o.xyz/r/lycoreco-bd-complete"]
