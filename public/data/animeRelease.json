@@ -508,6 +508,58 @@
         "notes": "Video:\n Yousei-raws \n Takarir:\n Moesubs"
     },
     {
+        "malId": 28617,
+        "title": "Punch Line",
+        "bestAlternatives": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Adachi%20to%20Shimamura%20%28BDRip%201080p%20x264%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n BlurayDesuYo \n Takarir:\n D-AnimeSub"
+    },
+    {
+        "malId": 48363,
+        "title": "RPG Fudousan",
+        "bestAlternatives": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20RPG%20Fudousan%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n 7³ACG \n Takarir:\n DurandalSubs (Kusonime)"
+    },
+    {
+        "malId": 20047,
+        "title": "Sakura Trick",
+        "bestReleases": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Sakura%20Trick%20%28BDRip%201920x1080%20HEVC%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n smol \n Takarir:\n Tiramisubs [NeoSubs]"
+    },
+    {
+        "malId": 33502,
+        "title": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+        "bestAlternatives": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Shuumatsu%20Nani%20Shitemasu%20ka%3F%20Isogashii%20desu%20ka%3F%20Sukutte%20Moratte%20Ii%20desu%20ka%3F%20%28BDRip%201080p%20HEVC%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\n sam \n Takarir:\n Hinose & Ankoku (D-A)"
+    },
+    {
         "malId": 52991,
         "title": "Sousou no Frieren",
         "bestReleases": [
@@ -594,5 +646,44 @@
             }
         ],
         "notes": "-"
+    },
+    {
+        "malId": 25519,
+        "title": "Yuuki Yuuna wa Yuusha de Aru",
+        "bestReleases": [
+            {
+                "name": "S1: [pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Yuuki%20Yuuna%20wa%20Yuusha%20de%20Aru%20%28BDRip%201920x1080%20x264%20FLAC%29/"
+                ]
+            }
+        ],
+        "notes": "Video:\nBeatrice-Raws\nTakarir :\n- Ani-BD"
+    },
+    {
+        "malId": 34284,
+        "title": "Yuuki Yuuna wa Yuusha de Aru: Washio Sumi no Shou",
+        "bestAlternatives": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Yuuki%20Yuuna%20wa%20Yuusha%20de%20Aru%20Washio%20Sumi%20no%20Shou%20%28BDRip%201080p%20x264%20FLAC%29%20%5Bv2%5D/"
+                ]
+            }
+        ],
+        "notes": "Video:\njsum@u2\nTakarir:\nTV ver. Sub: Kuroyuri - Caramel\n Movie ver. Sub 1: Kuroyuri - Caramel [Default]\n Movie ver. Sub 2: CenatCenut"
+    },
+    {
+        "malId": 34445,
+        "title": "Yuuki Yuuna wa Yuusha de Aru: Yuusha no Shou",
+        "bestAlternatives": [
+            {
+                "name": "[pololer]",
+                "downloadLinks": [
+                    "https://www.pololer.web.id/0:/%5Bpololer%5D%20Yuuki%20Yuuna%20wa%20Yuusha%20de%20Aru%20Washio%20Sumi%20no%20Shou%20%28BDRip%201080p%20x264%20FLAC%29%20%5Bv2%5D/"
+                ]
+            }
+        ],
+        "notes": "Video:\nBeatrice-Raws\nTakarir:\n Sub 1: Kuroyuri - Caramel [Default]\n Sub 2: CenatCenut"
     }
 ]
