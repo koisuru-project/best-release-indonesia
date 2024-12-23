@@ -2,6 +2,24 @@ import { AnimeData } from "@/types";
 
 export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
+export const fetchAnimeData = async (malId: number): Promise<AnimeData | null> => {
+    try {
+        // In production, fetch from local cache
+        if (process.env.NODE_ENV === "production") {
+            const response = await fetch(`/data/cache/${malId}.json`);
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            return await response.json();
+        }
+
+        // In development, fetch from Jikan API
+        const data = await fetchWithRetry(`https://api.jikan.moe/v4/anime/${malId}`);
+        return data.data;
+    } catch (error) {
+        console.error("Error fetching anime data:", error);
+        return null;
+    }
+};
+
 export const fetchWithRetry = async (url: string, maxRetries = 5): Promise<any> => {
     let retries = 0;
 
@@ -31,14 +49,4 @@ export const fetchWithRetry = async (url: string, maxRetries = 5): Promise<any> 
     }
 
     throw new Error("Max retries exceeded");
-};
-
-export const fetchAnimeData = async (malId: number): Promise<AnimeData | null> => {
-    try {
-        const data = await fetchWithRetry(`https://api.jikan.moe/v4/anime/${malId}`);
-        return data.data;
-    } catch (error) {
-        console.error("Error fetching anime data:", error);
-        return null;
-    }
 };
