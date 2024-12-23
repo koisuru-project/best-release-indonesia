@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import { join } from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
-import { AnimeData } from "@/types"
+import { AnimeData } from "@/types";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
