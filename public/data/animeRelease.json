@@ -32,6 +32,18 @@
         "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Manga Neko (D-AnimeSub) [Default]\n - Kuroyuri (Kusonime)"
     },
     {
+        "malId": 38186,
+        "title": "Bokutachi wa Benkyou ga Dekinai",
+        "bestAlternatives": [
+            {
+                "name": "S2: [Anigo x PN]",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/1z7Q-NMpF0f8PbTVs1ZuBhojnDsCusDZO?usp=sharing"
+                ]
+            }
+        ]
+    },
+    {
         "malId": 44511,
         "title": "Chainsaw Man",
         "bestReleases": [
@@ -346,12 +358,12 @@
         "bestReleases": [
             {
                 "name": "[VFK]",
+                "description": "sam + Oploverz",
                 "downloadLinks": [
                     "https://drive.google.com/file/d/1uw8EV-c2A0lG6kkDLx0WFlkLKw1c5JKk/view?usp=drive_link"
                 ]
             }
-        ],
-        "notes": "Video:\n sam \n Takarir: \n Isekaisubs [Default], \n Haruzora, \n Doronime"
+        ]
     },
     {
         "malId": 33487,
