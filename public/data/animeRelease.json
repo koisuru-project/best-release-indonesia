@@ -62,55 +62,6 @@
         "notes": "UBW (Moesubs (1-5), Kuroyuri (6-12))"
     },
     {
-        "malId": 32901,
-        "title": "Eromanga-sensei",
-        "bestReleases": [
-            {
-                "name": "[VFK]",
-                "description": "1080p",
-                "downloadLinks": []
-            }
-        ],
-        "notes": "Season 1\nVideo :\nBeatrice-Raws\nTakarir :\n- Caramel\n- Moesubs (Eps. 01-09)\n- MangaNeko\n- D-AnimeSubs (MangaNeko edit)\n- AWSubs\n- Tiramisubs-Lokal (Eps. 01-08)\n- LoliSekaiSubs\n- Zensubs",
-        "missingReleases": "Episode 01-12\n- Delima (Delsubs)\n- Melody\n\nEpisode OVA 01-02\n- Idol Project"
-    },
-    {
-        "malId": 25537,
-        "title": "Fate/stay night [Heaven's Feel] I.",
-        "bestReleases": [
-            {
-                "name": "[VFK]",
-                "description": "1080p",
-                "downloadLinks": []
-            }
-        ],
-        "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Delima\n- Moesubs [VFK Edit] (Default)\n- Neosubs\n- Pucuk"
-    },
-    {
-        "malId": 33049,
-        "title": "Fate/stay night [Heaven's Feel] II.",
-        "bestReleases": [
-            {
-                "name": "[VFK]",
-                "description": "1080p",
-                "downloadLinks": []
-            }
-        ],
-        "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Delima\n- Moesubs [VFK Edit] (Default)\n- Neosubs\n- Pucuk"
-    },
-    {
-        "malId": 33050,
-        "title": "Fate/stay night [Heaven's Feel] III.",
-        "bestReleases": [
-            {
-                "name": "[VFK]",
-                "description": "1080p",
-                "downloadLinks": []
-            }
-        ],
-        "notes": "Video :\nBeatrice-Raws\nTakarir :\n- Delima\n- Moesubs [VFK Edit] (Default)\n- Neosubs\n- Pucuk"
-    },
-    {
         "malId": 50425,
         "title": "Fuufu Ijou, Koibito Miman",
         "bestReleases": [
@@ -199,26 +150,6 @@
         ]
     },
     {
-        "malId": 40787,
-        "title": "Josee to Tora to Sakana-tachi",
-        "bestReleases": [
-            {
-                "name": "[VFK]",
-                "description": "1080p",
-                "downloadLinks": []
-            }
-        ],
-        "bestAlternatives": [
-            {
-                "name": "[Kawaiika-Raws]",
-                "description": "Alternative quality",
-                "downloadLinks": []
-            }
-        ],
-        "notes": "Video :\nBeatrice-Raws\nTakarir :\n- EmotPekmen, RezyuSubs, Alqanime - [VFK Edit]",
-        "qualityComparisons": "https://slow.pics/c/gGl8pL8m"
-    },
-    {
         "malId": 10568,
         "title": "Kamisama no Memochou",
         "bestReleases": [
@@ -231,6 +162,17 @@
             }
         ],
         "notes": "Video :\nsergey_krs\nTakarir :\n- D-AnimeSub"
+    },
+    {
+        "malId": 39326,
+        "title": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka?",
+        "bestAlternatives": [
+            {
+                "name": "[Caramel]",
+                "description": "BD 720p",
+                "downloadLinks": ["https://terabox.com/s/197U7anbG2VMRWbWuY5v9aA"]
+            }
+        ]
     },
     {
         "malId": 37475,
@@ -250,20 +192,13 @@
         "title": "Koe no Katachi",
         "bestReleases": [
             {
-                "name": "[VFK] ITABD",
-                "description": "1080p",
-                "downloadLinks": []
+                "name": "[VFK]",
+                "downloadLinks": [
+                    "https://drive.google.com/file/d/1knutz8Uk-bORC3xJ-fqlERsDReEnrL5w/view?usp=drive_link"
+                ]
             }
         ],
-        "bestAlternatives": [
-            {
-                "name": "[VFK] JPBD",
-                "description": "Alternative quality",
-                "downloadLinks": []
-            }
-        ],
-        "notes": "ITA-BD\nVideo :\nD-Z0N3\nJP-BD\nVideo :\nBeatrice-Raws\nTakarir :\n- [Anitoki]\n- [AWSubs]\n- [CenatCenut]\n- [Haruzorasubs]\n- [Hinose Fansub]\n- [Itsuwari]\n- [Moesubs]\n- [Montblanc v2 Biasa]\n- [Montblanc v2 Tiramisu - Vi_Filter-kun Edit] (Default)\n- [Montblanc v2 Tiramisu]\n- [NeoSubs]\n- [Wibusubs]\n- [Kametsu] - English",
-        "qualityComparisons": "https://slow.pics/c/DIbTimRA"
+        "notes": "Video:\n Okay-Subs \nTakarir :\n- [Anitoki]\n- [AWSubs]\n- [CenatCenut]\n- [Haruzorasubs]\n- [Hinose Fansub]\n- [Itsuwari]\n- [Moesubs]\n- [Montblanc v2 Biasa]\n- [Montblanc v2 Tiramisu - Vi_Filter-kun Edit] (Default)\n- [Montblanc v2 Tiramisu]\n- [NeoSubs]\n- [Wibusubs]\n- [Kametsu] - English"
     },
     {
         "malId": 39388,
@@ -315,6 +250,19 @@
             }
         ],
         "notes": "Video:\n Kawaiika-raws \n S1: Tiramisubs \n S2: Tiramisubs (Baguss089)\n Movie: Tiramisubs dan SilverYasha"
+    },
+    {
+        "malId": 54492,
+        "title": "Kusuriya no Hitorigoto",
+        "bestReleases": [
+            {
+                "name": "[CumaPenginMux]",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/1q6tMnsJ0imc4hJg6FLw4Wj4BoXlr4Bnd?usp=drive_link"
+                ]
+            }
+        ],
+        "notes": "Video:\n sam \n Takarir: \n OPLoverz"
     },
     {
         "malId": 18153,
@@ -393,6 +341,19 @@
         "qualityComparisons": ["https://slow.pics/c/zecFOCyh", "https://slow.pics/c/rGRgWkb8"]
     },
     {
+        "malId": 48375,
+        "title": "Mahouka Koukou no Rettousei: Tsuioku-hen",
+        "bestReleases": [
+            {
+                "name": "[VFK]",
+                "downloadLinks": [
+                    "https://drive.google.com/file/d/1uw8EV-c2A0lG6kkDLx0WFlkLKw1c5JKk/view?usp=drive_link"
+                ]
+            }
+        ],
+        "notes": "Video:\n sam \n Takarir: \n Isekaisubs [Default], \n Haruzora, \n Doronime"
+    },
+    {
         "malId": 33487,
         "title": "Masamune-kun no Revenge",
         "bestReleases": [
@@ -428,18 +389,6 @@
             }
         ],
         "notes": "Video:\n VCB-Studio \n Skrip:\n AnimeSubIND"
-    },
-    {
-        "malId": 15315,
-        "title": "Mondaiji-tachi ga Isekai kara Kuru Sou desu yo?",
-        "bestReleases": [
-            {
-                "name": "[VFK]",
-                "description": "1080p",
-                "downloadLinks": []
-            }
-        ],
-        "notes": "Video :\nSCY\nTakarir :\n- AWSubs-NDs\n- Souki-Hassou"
     },
     {
         "malId": 19815,
@@ -576,12 +525,33 @@
         "title": "Sword Art Online Progressive - Kuraki Yuuyami no Scherzo",
         "bestReleases": [
             {
+                "name": "[SedikitLebihNiat]",
+                "downloadLinks": [
+                    "https://drive.google.com/file/d/1Fnyvag9PxQM0JF9lOmN865y8B-zTbyVI/view?usp=drive_link"
+                ]
+            }
+        ],
+        "bestAlternatives": [
+            {
                 "name": "[Koisuru x MendingTuru]",
                 "description": "BDRemux ITA BD",
                 "downloadLinks": ["https://justpaste.it/daa15"]
             }
         ],
-        "notes": "Video:\n BDRemux ITA BD \n Skrip: \n OPLoverz"
+        "notes": "Legion ITABD Encode + Oploverz"
+    },
+    {
+        "malId": 42916,
+        "title": "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
+        "bestReleases": [
+            {
+                "name": "[SedikitLebihNiat]",
+                "downloadLinks": [
+                    "https://drive.google.com/file/d/1ilCetjN4wR3dL_nG0U7V7jjjAd0uMHDx/view?usp=drive_link"
+                ]
+            }
+        ],
+        "notes": "Legion ITABD Encode + Oploverz"
     },
     {
         "malId": 53516,
@@ -622,16 +592,17 @@
         ]
     },
     {
-        "malId": 33352,
-        "title": "Violet Evergarden",
+        "malId": 51552,
+        "title": "Watashi no Shiawase na Kekkon",
         "bestReleases": [
             {
-                "name": "S1 :",
-                "description": "1080p",
-                "downloadLinks": []
+                "name": "[Koisuru]",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/1GW05P-_Ibdo9UxWRM4okt6dLz36dftfm?usp=sharing"
+                ]
             }
         ],
-        "notes": "Season 1\nVideo :\nSCY\nTakarir :\n- Ankoku\nGekijouban Violet Evergarden (2020)\nVideo :\nBeatrice-Raws\nTakarir :\n- Vi_Filter-kun (Default)\n- Pucuk\n- Hunter no Sekai\n- Reza (English)"
+        "notes": "JPBD Remux + NF"
     },
     {
         "malId": 37786,
@@ -639,7 +610,9 @@
         "bestReleases": [
             {
                 "name": "[pololer]",
-                "downloadLinks": ["https://pololer.yurasu.xyz/2024/09/Tak-Lama-Lagi-Aku-Menjadi-Dirimu.html"]
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/1PW_Ve--_v1ybXUCa2YGnFSIIumDdyJxl?usp=drive_link"
+                ]
             }
         ],
         "notes": "Video:\n smol \n Skrip:\n Melody Fansub",
@@ -657,6 +630,26 @@
             }
         ],
         "notes": "-"
+    },
+    {
+        "malId": 35507,
+        "title": "Youkoso Jitsuryoku Shijou no Kyoushitsu e",
+        "bestReleases": [
+            {
+                "name": "S1: [Koisuru]",
+                "description": "sam + Yukimisu",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/1R4ISMlxGPUy8-_rNgsjtjeWNjYuP4GVk?usp=drive_link"
+                ]
+            },
+            {
+                "name": "S2: [Koisuru]",
+                "description": "VCB + Bstation",
+                "downloadLinks": [
+                    "https://drive.google.com/drive/folders/17nY-VGElRpsWvUWLEAapnVGUKinyVnos?usp=drive_link"
+                ]
+            }
+        ]
     },
     {
         "malId": 25519,
