@@ -7,7 +7,21 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
     title: "Best Release Indonesia",
-    description: "Best anime releases Indonesia and their information"
+    description: "Best anime releases Indonesia and their information",
+    icons: {
+        icon: [
+            {
+                url: '/favicon.png',
+                type: 'image/png',
+            },
+        ],
+        apple: [
+            {
+                url: '/favicon.png',
+                type: 'image/png',
+            },
+        ],
+    },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
