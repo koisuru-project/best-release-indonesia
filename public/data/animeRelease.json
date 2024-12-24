@@ -1,5 +1,18 @@
 [
     {
+        "malId": 42361,
+        "title": "22/7",
+        "bestAlternatives": [
+            {
+                "name": "[Melody]",
+                "description": "Batch BD 1080p",
+                "downloadLinks": [
+                    "https://unpakacid-my.sharepoint.com/:u:/g/personal/craftjosie4095_unpak_ac_id/EYJAuKUpNLhLkwgeiqWudm4B5eQ19bKw8rugLcBoa9RmGA?e=lcBpx4&download=1"
+                ]
+            }
+        ]
+    },
+    {
         "malId": 39790,
         "title": "Adachi to Shimamura",
         "bestReleases": [
@@ -72,6 +85,19 @@
             }
         ],
         "notes": "UBW (Moesubs (1-5), Kuroyuri (6-12))"
+    },
+    {
+        "malId": 38062,
+        "title": "Endro~!",
+        "bestAlternatives": [
+            {
+                "name": "[Melody]",
+                "description": "Batch BD 1080p",
+                "downloadLinks": [
+                    "https://unpakacid-my.sharepoint.com/:u:/g/personal/craftjosie4095_unpak_ac_id/Ea8tacP1a01CqQxtZZ1mO04BLQiRsbzTtS-RJmurh80XQg?e=ILznkX&download=1"
+                ]
+            }
+        ]
     },
     {
         "malId": 50425,
@@ -152,6 +178,30 @@
                 "description": "BD 720p",
                 "downloadLinks": [
                     "https://drive.google.com/drive/folders/1rS9IdHtfQ7Yu_1HhhaaVu-gfqft8Z0VA?usp=sharing"
+                ]
+            }
+        ]
+    },
+    {
+        "malId": 42361,
+        "title": "Ijiranaide, Nagatoro-san",
+        "bestAlternatives": [
+            {
+                "name": "[Aizu]",
+                "description": "Batch BD 1080p",
+                "downloadLinks": ["https://drive.google.com/file/d/1PjTg4IEJnyAoQgLNgRBpk1KUBBb61K3T/view?usp=sharing"]
+            }
+        ]
+    },
+    {
+        "malId": 38619,
+        "title": "Joshikousei no Mudazukai",
+        "bestAlternatives": [
+            {
+                "name": "[DuraMel]",
+                "description": "Batch BD 1080p",
+                "downloadLinks": [
+                    "https://unpakacid-my.sharepoint.com/:u:/g/personal/craftjosie4095_unpak_ac_id/EZu6dEliD3NHsbn50hkxavcBMfLDTH9oGZN3Qk6lbtljiA?e=A672fw&download=1"
                 ]
             }
         ]
@@ -481,6 +531,19 @@
         "notes": "Video:\n 7³ACG \n Takarir:\n DurandalSubs (Kusonime)"
     },
     {
+        "malId": 37221,
+        "title": "Release the Spyce",
+        "bestAlternatives": [
+            {
+                "name": "[Melody]",
+                "description": "Batch BD 1080p",
+                "downloadLinks": [
+                    "https://unpakacid-my.sharepoint.com/:u:/g/personal/craftjosie4095_unpak_ac_id/EY3dS6RlojVFr2V3Qu3f7T8BT5ebm4_BWoAGRSE1SiG0vA?e=Q06ivU&download=1"
+                ]
+            }
+        ]
+    },
+    {
         "malId": 20047,
         "title": "Sakura Trick",
         "bestReleases": [
@@ -492,6 +555,19 @@
             }
         ],
         "notes": "Video:\n smol \n Takarir:\n Tiramisubs [NeoSubs]"
+    },
+    {
+        "malId": 35503,
+        "title": "Shoujo☆Kageki Revue Starlight",
+        "bestAlternatives": [
+            {
+                "name": "[Melody]",
+                "description": "Batch BD 1080p",
+                "downloadLinks": [
+                    "https://unpakacid-my.sharepoint.com/:u:/g/personal/craftjosie4095_unpak_ac_id/EZ6TJjPw0d5Avi4JOncApnwBLubi8oNOxU7NXg7DKxilnQ?e=BMoWzb&download=1"
+                ]
+            }
+        ]
     },
     {
         "malId": 33502,
@@ -566,6 +642,17 @@
         "notes": "Video:\n pololer \n Takarir:\n Durandal Fansub"
     },
     {
+        "malId": 33341,
+        "title": "Time Travel Shoujo: Mari Waka to 8-nin no Kagakusha-tachi",
+        "bestAlternatives": [
+            {
+                "name": "[Aizu]",
+                "description": "Rar BD 720p",
+                "downloadLinks": ["https://mega.nz/folder/kDwCyTQY#PF1AWmOff-KH3go6AajZmg"]
+            }
+        ]
+    },
+    {
         "malId": 34902,
         "title": "Tsurezure Children",
         "bestReleases": [
@@ -626,8 +713,7 @@
                     "https://drive.google.com/drive/folders/19ilDewU_PQ9Ep4NjYzWYAVt-3DIZEKYx?usp=sharing"
                 ]
             }
-        ],
-        "notes": "-"
+        ]
     },
     {
         "malId": 35507,
@@ -687,5 +773,18 @@
             }
         ],
         "notes": "Video:\nBeatrice-Raws\nTakarir:\n Sub 1: Kuroyuri - Caramel [Default]\n Sub 2: CenatCenut"
+    },
+    {
+        "malId": 37976,
+        "title": "Zombieland Saga",
+        "bestAlternatives": [
+            {
+                "name": "[Melody]",
+                "description": "Batch BD 1080p",
+                "downloadLinks": [
+                    "https://unpakacid-my.sharepoint.com/:u:/g/personal/craftjosie4095_unpak_ac_id/EagmE6a-bslAvHDkmlKHgOwByqh9pJpuMrlxIg4E2U5R4w?e=z8AtDb&download=1"
+                ]
+            }
+        ]
     }
 ]

@@ -11,17 +11,17 @@ export const metadata: Metadata = {
     icons: {
         icon: [
             {
-                url: '/favicon.png',
-                type: 'image/png',
-            },
+                url: "/favicon.png",
+                type: "image/png"
+            }
         ],
         apple: [
             {
-                url: '/favicon.png',
-                type: 'image/png',
-            },
-        ],
-    },
+                url: "/favicon.png",
+                type: "image/png"
+            }
+        ]
+    }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
