@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
-import { Table, TableHeader, TableBody, TableColumn, TableRow, TableCell } from "@nextui-org/react";
+import React, { useState, useMemo } from "react";
+import { Button, Table, TableHeader, TableBody, TableColumn, TableRow, TableCell } from "@nextui-org/react";
 import { SearchBar } from "./components/SearchBar";
 import { LoadingSpinner } from "./components/LoadingSpinner";
 import { AnimeDetailModal } from "./components/AnimeDetailModal";
@@ -26,16 +26,23 @@ const AnimeReleaseTable: React.FC = () => {
 
     const isLoading = isReleasesLoading || isAnimeDataLoading;
 
-    // Sort the filtered releases alphabetically
-    const sortedReleases = [...filteredReleases].sort((a, b) => {
-        const titleA = animeDataCache[a.malId]?.title || a.title;
-        const titleB = animeDataCache[b.malId]?.title || b.title;
-        return titleA.localeCompare(titleB);
-    });
+    // Memoize the sorted releases to avoid sorting on every render
+    const sortedReleases = useMemo(() => {
+        return [...filteredReleases].sort((a, b) => {
+            const titleA = animeDataCache[a.malId]?.title || a.title;
+            const titleB = animeDataCache[b.malId]?.title || b.title;
+            return titleA.localeCompare(titleB);
+        });
+    }, [filteredReleases, animeDataCache]);
 
     if (isLoading && sortedReleases.length === 0) {
         return <LoadingSpinner status={loadingStatus} />;
     }
+
+    const handleRowClick = (release: AnimeRelease) => {
+        setSelectedRelease(release);
+        setIsModalOpen(true);
+    };
 
     return (
         <div className="w-full space-y-4">
@@ -63,13 +70,18 @@ const AnimeReleaseTable: React.FC = () => {
                                 <TableRow
                                     key={release.malId}
                                     className="cursor-pointer hover:bg-default-100"
-                                    onClick={() => {
-                                        setSelectedRelease(release);
-                                        setIsModalOpen(true);
-                                    }}
+                                    onClick={() => handleRowClick(release)}
                                 >
-                                    <TableCell>{animeData?.title || release.title}</TableCell>
-                                    <TableCell>{animeData?.title_english || "N/A"}</TableCell>
+                                    <TableCell>
+                                        <Button color="default" variant="light" onPress={() => handleRowClick(release)}>
+                                            {animeData?.title || release.title}
+                                        </Button>
+                                    </TableCell>
+                                    <TableCell>
+                                        <Button color="default" variant="light" onPress={() => handleRowClick(release)}>
+                                            {animeData?.title_english || "N/A"}
+                                        </Button>
+                                    </TableCell>
                                 </TableRow>
                             );
                         })}
