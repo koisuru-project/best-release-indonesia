@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
-import { Button, Table, TableHeader, TableBody, TableColumn, TableRow, TableCell } from "@nextui-org/react";
+import { Table, TableHeader, TableBody, TableColumn, TableRow, TableCell, Link } from "@nextui-org/react";
 import { SearchBar } from "./components/SearchBar";
 import { LoadingSpinner } from "./components/LoadingSpinner";
 import { AnimeDetailModal } from "./components/AnimeDetailModal";
@@ -73,14 +73,14 @@ const AnimeReleaseTable: React.FC = () => {
                                     onClick={() => handleRowClick(release)}
                                 >
                                     <TableCell>
-                                        <Button color="default" variant="light" onPress={() => handleRowClick(release)}>
+                                        <Link color="foreground" onPress={() => handleRowClick(release)}>
                                             {animeData?.title || release.title}
-                                        </Button>
+                                        </Link>
                                     </TableCell>
                                     <TableCell>
-                                        <Button color="default" variant="light" onPress={() => handleRowClick(release)}>
+                                        <Link color="foreground" onPress={() => handleRowClick(release)}>
                                             {animeData?.title_english || "N/A"}
-                                        </Button>
+                                        </Link>
                                     </TableCell>
                                 </TableRow>
                             );
