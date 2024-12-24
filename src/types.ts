@@ -17,6 +17,7 @@ export interface AnimeRelease {
 
 export interface AnimeData {
     mal_id: number;
+    url: string;
     title: string;
     title_english: string | null;
     images: {

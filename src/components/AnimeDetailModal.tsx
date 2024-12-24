@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useMemo } from "react";
-import { Modal, ModalContent, ModalHeader, ModalBody, Card, CardBody, Tabs, Tab } from "@nextui-org/react";
+import { Modal, ModalContent, ModalHeader, ModalBody, Card, CardBody, Tabs, Tab, Link } from "@nextui-org/react";
 import Image from "next/image";
 import { AnimeRelease, AnimeData } from "../types";
 import { ReleaseSection } from "./ReleaseSection";
@@ -21,7 +21,11 @@ export const AnimeDetailModal: React.FC<AnimeDetailModalProps> = ({ isOpen, onCl
 
         return (
             <>
-                <ModalHeader className="flex gap-1 text-lg sm:text-xl break-words">{animeData.title}</ModalHeader>
+                <ModalHeader className="flex gap-1 text-lg sm:text-xl break-words">
+                    <Link href={animeData.url} isExternal color="foreground" target="_blank">
+                        {animeData.title}
+                    </Link>
+                </ModalHeader>
                 <ModalBody>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <Card className="w-full max-w-sm mx-auto">

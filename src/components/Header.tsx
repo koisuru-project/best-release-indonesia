@@ -1,9 +1,9 @@
 "use client";
 
 import React from "react";
-import { Github } from "lucide-react";
+import { SiGithub } from "react-icons/si";
 import { Button } from "@nextui-org/react";
-import { FaDiscord } from "react-icons/fa6";
+import { FaDiscord, FaHome, FaDatabase, FaQuestionCircle } from "react-icons/fa";
 import ThemeToggle from "./ThemeToggle";
 import Link from "next/link";
 
@@ -17,6 +17,7 @@ const Header = () => {
                     </div>
                     <div className="flex items-center gap-2">
                         <Button as={Link} href="/" variant="light" className="text-default-600">
+                            <FaHome />
                             Home
                         </Button>
                         <Button
@@ -26,9 +27,11 @@ const Header = () => {
                             target="_blank"
                             className="text-default-600"
                         >
+                            <FaDatabase />
                             Database Softsub
                         </Button>
                         <Button as={Link} href="/faq" variant="light" className="text-default-600">
+                            <FaQuestionCircle />
                             FAQ
                         </Button>
                     </div>
@@ -55,7 +58,7 @@ const Header = () => {
                         variant="light"
                         className="text-default-500"
                     >
-                        <Github size={20} />
+                        <SiGithub size={20} />
                     </Button>
                 </div>
             </div>
