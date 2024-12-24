@@ -3,7 +3,7 @@
 import React from "react";
 import { SiGithub } from "react-icons/si";
 import { Button } from "@nextui-org/react";
-import { FaDiscord, FaHome, FaDatabase, FaQuestionCircle } from "react-icons/fa";
+import { FaDiscord, FaHome, FaDatabase, FaQuestionCircle, FaChartBar } from "react-icons/fa";
 import ThemeToggle from "./ThemeToggle";
 import Link from "next/link";
 
@@ -19,6 +19,10 @@ const Header = () => {
                         <Button as={Link} href="/" variant="light" className="text-default-600">
                             <FaHome />
                             Home
+                        </Button>
+                        <Button as={Link} href="/static" variant="light" className="text-default-600">
+                            <FaChartBar />
+                            Static
                         </Button>
                         <Button
                             as={Link}

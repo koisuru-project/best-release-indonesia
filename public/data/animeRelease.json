@@ -83,8 +83,7 @@
                     "https://drive.google.com/drive/folders/11L-Iet9c6zLZBTAxNPw6K4XXDRQ_Sm68?usp=sharing"
                 ]
             }
-        ],
-        "notes": "-"
+        ]
     },
     {
         "malId": 21273,
@@ -92,14 +91,12 @@
         "bestReleases": [
             {
                 "name": "S1 : [pololer]",
-                "description": "1080p",
                 "downloadLinks": [
                     "https://www.pololer.web.id/0:/[pololer]%20Gochuumon%20wa%20Usagi%20Desuka%20S1%20(BDrip%201920x1080%20x264%20FLAC)/"
                 ]
             },
             {
                 "name": "S2 : [pololer]",
-                "description": "1080p",
                 "downloadLinks": [
                     "https://www.pololer.web.id/0:/[pololer]%20Gochuumon%20wa%20Usagi%20Desuka%20S2%20(BDrip%201920x1080%20x264%20FLAC)/"
                 ]
@@ -113,7 +110,6 @@
         "bestReleases": [
             {
                 "name": "[pololer]",
-                "description": "1080p",
                 "downloadLinks": [
                     "https://www.pololer.web.id/0:/%5Bpololer%5D%20Hanasaku%20Iroha%20-%20Home%20Sweet%20Home%20v2%20%28BDrip%201920x1080%20x264%20FLAC%29/"
                 ]
@@ -127,7 +123,6 @@
         "bestAlternatives": [
             {
                 "name": "S1 : [pololer]",
-                "description": "1080p",
                 "downloadLinks": [
                     "https://www.pololer.web.id/0:/[pololer]%20Hibike!%20Euphonium%20(Sound!%20Euphonium)%20(BDRip%201920x1080%20x264%20FLAC)/"
                 ]
@@ -167,7 +162,6 @@
         "bestReleases": [
             {
                 "name": "[pololer]",
-                "description": "1080p",
                 "downloadLinks": [
                     "https://www.pololer.web.id/0:/[pololer]%20Kamisama%20no%20Memochou%20(BDRip%201920x1080%20x264%20FLAC)/"
                 ]
@@ -287,7 +281,6 @@
         "bestAlternatives": [
             {
                 "name": "S1 : [pololer]",
-                "description": "1080p",
                 "downloadLinks": [
                     "https://www.pololer.web.id/0:/[pololer]%20Kyoukai%20no%20Kanata%20(BDRip%201920x1080%20x264%20FLAC)/"
                 ]
@@ -317,7 +310,6 @@
         "bestReleases": [
             {
                 "name": "S1 : [pololer]",
-                "description": "1080p",
                 "downloadLinks": [
                     "https://www.pololer.web.id/0:/[pololer]%20Magia%20Record%20Mahou%20Shoujo%20Madoka%E2%98%86Magica%20Gaiden%20(BDRip%201920x1080%20HEVC%20FLAC)/"
                 ]
@@ -376,15 +368,9 @@
         "bestAlternatives": [
             {
                 "name": "S1 : [pololer]",
-                "description": "1080p",
                 "downloadLinks": [
                     "https://www.pololer.web.id/0:/[pololer]%20Masamune-kun%20no%20Revenge%20(BDRip%201920x1080%20x264%20FLAC)/"
                 ]
-            },
-            {
-                "name": "OVA : [VFK]",
-                "description": "1080p",
-                "downloadLinks": []
             }
         ],
         "notes": "Season 1\nVideo :\nBeatrice-Raws\nTakarir :\n- Yukimisu\nOVA\nVideo :\nUCCUSS\nTakarir :\n- Yukimisu\n- TamanBunga\n- Zensubs"
